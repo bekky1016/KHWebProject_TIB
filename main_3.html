@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kyobobook_main_3</title>
+    <link href="./reset.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="welcome_main_content_area" id="welcome_new_topic">
+        <div class="content_inner">
+            <div class="title_wrap title_size_xxl">
+                <p class="title_heading">화제의 신상</p>
+                <ul class="category_tag_list">
+                    <li class="category_item active" data-target="#topicAll">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">전체</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#224">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">국내도서</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#225">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">외국도서</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#226">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">eBook</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#227">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">sam</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#228">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">핫트랙스</span>
+                        </button>
+                    </li>
+                    <li class="category_item" data-target="#229">
+                        <button type="button" class="btn_category" onclick="#">
+                        ::before
+                        <span class="text">교보ONLY</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="right_area">
+                    <a href="#" class="btn_more_plus_text">
+                        <span class="text">더보기</span>
+                        <span class="ico_plus"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- '전체'탭 하드코딩 구성(S) -->
+            <div id="topicAll" class="welcome_prod_swiper_wrap outside_nav">
+                <div class="swiper-container swiper-container-horizontal">
+                    <ul class="swiper-wrapper hover_zoom" style="translate3d(0px, 0px, 0px);">
+                        <li class="prod_item swiper-slide zoom swiper-slide-active" style="margin-right: 36px;">
+                        <div class="prod_area">
+                            <div class="prod_thumb_box">
+                                <a href="https://product.kyobobook.co.kr/detail/S000200086905" class="prod_link">
+                                    <span class="img_box">
+                                        <img data-kbbfn="s3-image" loading="lazy" alt="5000200086905" src="https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791190090735.jpg" data-src="https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791190090735.jpg">
+                                    </span>                                    
+                                </a>
+                            </div>
+                            <div class="prod_info_box">
+                                <a href="https://product.kyobobook.co.kr/detail/S000200086905" class="prod_info">
+                                    <span class="prod_name">계산된 삶</span>
+                                </a>
+                                <span class="prod_author"> 앤 차녹 ·허블 </span>
+                                <div class="prod_price">
+                                    <span class="percent">10%</span>
+                                    <span class="price">
+                                        <span class="val">15,300</span>
+                                        <span class="unit">원</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <li class="prod_item swiper-slide swiper-slide-next" style="margin-right: 36px;">
+                        <div class="prod_area">
+                            <div class="prod_thumb_box">
+                                <a href="https://product.kyobobook.co.kr/detail/S000200086905" class="prod_link">
+                                    <span class="img_box">
+                                        <img data-kbbfn="s3-image" loading="lazy" alt="5000200086905" src="https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791190090735.jpg" data-src="https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791190090735.jpg">
+                                    </span>                                    
+                                </a>
+                            </div>
+                            <div class="prod_info_box">
+                                <a href="https://product.kyobobook.co.kr/detail/S000200086905" class="prod_info">
+                                    <span class="prod_name">계산된 삶</span>
+                                </a>
+                                <span class="prod_author"> 앤 차녹 ·허블 </span>
+                                <div class="prod_price">
+                                    <span class="percent">10%</span>
+                                    <span class="price">
+                                        <span class="val">15,300</span>
+                                        <span class="unit">원</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <!-- 총 li*58개 있음 -->
+                    </ul>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <button type="button" class="swiper-button-prev type_white swiper-button-disabled"
+                tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                    <span class="hidden">이전</span>
+                </button>
+                <button type="button" class="swiper-button-next type_white"
+                tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+                    <span class="hidden">다음</span>
+                </button>
+            </div>
+            <!-- '전체'탭 하드코딩 구성(E) -->
+        </div>
+    </div>
+</body>
+</html>
